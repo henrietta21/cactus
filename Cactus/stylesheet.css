@@ -1,0 +1,429 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0 auto;
+    /* max-width: 100%; */
+    width: 960px;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 300;
+    color: #1d0502;
+}
+
+
+/* Typograpy */
+h1{
+    font-family: 'Playfair Display', serif;
+    text-transform: capitalize;
+    font-size: 3rem;
+    display: inline-block;
+    padding: 0 .5em;
+}
+h2{
+    margin: 0;
+    color: #fff;
+    font-family: 'Playfair Display', serif;
+    font-weight: 400;
+    padding: 0;
+    text-transform: capitalize;
+    display: inline-block;
+}
+h3{
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+img{
+    display: inline-block;
+    max-width: 100%;
+    object-fit: unset;
+}
+ul{
+    list-style: none;
+}
+.btn{ 
+    display: inline-block;
+    text-transform: capitalize;
+    border: 1px;
+    border-radius: .5;
+    border-radius: 10px;
+}
+a{
+    display: inline-block;
+    text-decoration: none;
+    color: #fff;
+}
+a:hover,
+a:focus{
+    color: black;
+}
+
+
+
+
+/* Navigation */
+.top-header{
+    background-color: #533b4d;
+    display: flex;
+    justify-content: space-between;
+    color: #fff;
+    align-items: center;
+    padding: .75em;
+}
+.header-logo,
+.header-list{
+    display: flex;
+}
+.header-logo:hover{
+    color:#fff;
+}
+.header-title{
+    align-self: center;
+    margin:1em ;
+    font-size:1.5rem ;
+}
+.header-list{
+    margin-right: 0;
+}
+.nav-link{
+    margin-right: 1.5em;
+    text-transform: uppercase;
+    font-size:1.875rem;
+}
+.nav-link:hover{
+    color: #fff;
+    background-color: #ecb7d8;
+    border-radius: 5px;
+}
+.btn-link{
+    background-color: #533b4d; 
+    margin-top:0; 
+    letter-spacing: 1px;
+    padding: .5em 1em;
+    font-size: 2rem;
+}
+.btn-link:hover{
+    background-color: #7a5b72;
+    color: #fff;
+}
+
+/* footer */
+.footer{
+    width: 880px;
+    display: flex;
+    flex-direction: column;
+    border-top: 1px solid black;
+    margin: 0 auto;
+    margin-top: 2em;
+    padding-top: 5em;
+}
+.footer-logo{
+    text-align: center;
+    font-size: 1.5em;
+    line-height: .2;
+}
+.footer-link{
+    display: flex;
+    justify-content: space-around;
+}
+.link-layout{
+    width: 30%;
+    text-align: center;
+    font-size: 1.5em;
+    padding: 0 1em;
+    display: flex;
+    flex-direction: column;
+    justify-content: baseline;
+}
+.link-layout a{
+    color: black;
+}
+.link-modifier{
+    margin: 1em 0;
+}
+.footer-description{
+    text-align: center;
+    font-size: 1em;
+    margin-top: 3em;
+    opacity: .6;
+}
+
+
+/* index-page */
+.banner{
+    background-image: url(img/banner-background.jpg);
+    padding: 119px;
+    padding-left: 3em;
+    background-size: contain;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-bottom: 2em;
+}
+.banner-head,
+.banner-title{
+    width: 55%;
+    color: #fff;
+}
+.banner-title{
+    font-size: 2rem;
+    margin-top: 0;
+    opacity: .7;
+}
+.banner-head{
+    letter-spacing: 1px;
+    line-height: 1.2;
+    text-transform: none;
+    padding: 0;
+}
+.sub-heading{
+    display: flex;
+    justify-content: space-between;
+    margin: 5em 0;
+}
+.sub-heading-main{
+    letter-spacing: 1px;
+    line-height: 1.2;
+    flex-basis: 55%;
+    font-size: 1rem;
+    font-weight: 400;
+}
+.sub-heading-img{
+    flex-basis: 40%;
+    align-self: center;
+}
+.sub-heading-title{
+    text-align:center;
+    font-size: 4rem;
+    margin: 0em;
+    letter-spacing: 1px;
+}
+.sub-heading-fix{
+    font-size: .75rem;
+}
+.main-heading{
+    background-image: url(img/green-cactus.jpg);
+    background-color: #fff;
+    background-blend-mode: darken;
+    background-position: center;
+    background-size: cover;
+    padding: 30px;
+    text-align: center;
+}
+.main-heading h1{
+    background-color: #fff;
+    padding: 0;
+}
+.main{
+    background-color: #9b4037;
+    display: flex;
+    flex-direction: column;
+    margin: 3em 0;
+}
+.cards{
+    display: flex;
+    justify-content: space-between;
+}
+.cards-text{
+    letter-spacing: .5px;
+    line-height: 1.2;
+    font-size: 1rem;
+    padding: 3em;
+    width: 50%;
+    color: #fff;
+}
+.cards-text h2{
+    margin-bottom: 1em;
+    letter-spacing: 3px;
+}
+.cards-text a{
+    display: inline-block;
+    margin-top: 4em;
+    margin-bottom: 0;
+    text-transform: capitalize;
+}
+.main-img{
+    max-width: 100%;
+    object-fit: fill;
+    width: 50%;
+}
+
+/* shop page */
+.top-link{
+    margin: 1em 0;
+    text-transform: capitalize ;
+    color: black;
+    font-size: 1.125rem;
+    letter-spacing: 1px;
+}
+.shop-section{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 1em;
+}
+.top-title,
+.bottom-title,
+.cart-title{
+    padding: 60px;
+    text-align: center;
+    margin-bottom: .5em;
+    font-size: 2rem;
+    font-weight: 300;
+}
+.top-title{
+    background-image: url(img/spikes-of-a-cactus-2248572.jpg);
+}
+.bottom-title{
+    background-image: url(img/scrim.jpg);
+}
+.section-text{
+    line-height: 1.5;
+    font-size: 1.125rem;
+    margin-bottom: 1em;
+}
+.img-section{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 1.5em;
+}
+.shop-img{
+    text-align: center;
+}
+.img-name{
+    font-size: 1.5rem;
+    margin-top: 0;
+    line-height: 1.5;
+}
+span{
+    font-weight: bold;
+}
+
+/* cart page */
+.cart-title{
+    background-image: url(img/Your-Cart-Image.jpg);
+}
+.cart-heading{
+    background-color: #fff;
+    color: black;
+}
+.cart-section{
+    display: flex;
+    flex-direction: column;
+}
+.cart-items{
+    display: flex;
+    flex-direction: column;
+    padding: 0 1em;
+}
+.item-details{
+    display: flex;
+    justify-content: space-between;
+}
+.item-description{
+    width: 320px;
+    align-items: left;
+    line-height: 1.5;
+}
+.item-description p{
+    font-size: 1.125rem;
+}
+.quantity-check{
+    text-align: center;
+    width: 120px;
+}
+.item-link{
+    text-decoration: underline;
+    color: black;
+}
+.cart-img{
+    align-self: center;
+    width: 120px;
+}
+.item-price{
+    text-align: center;
+}
+.item-btn{
+    text-transform: capitalize;
+    padding: .5em 1.5em;
+    background-color: #9b4037;
+    border-radius: 10px;
+    align-self: center; 
+    color: #fff;
+    font-size: 1.5rem;
+}
+.checkout{
+    display: flex;
+    flex-direction: column;
+    margin-top: 3em;
+}
+.checkout-title{
+    color: #1D0502;
+    text-align: center;
+    font-size: 4.5rem;
+}
+.checkout-form{
+    display: flex;
+    height: 696px;
+    margin: 2em 0em;
+    border: 1px solid black;
+}
+.form{
+    display: flex;
+    flex-direction: column;
+    justify-content: stretch;
+    width: 480px;
+    padding: 3em;
+}
+.coloured{
+    background-color: #9B4037;
+    color: #fff;
+}
+.form-title{
+    font-weight: 400;
+    font-size: 2.25rem;
+    margin-top:.5em;
+}
+.form-text{
+    font-weight: 400;
+    font-size: 1.125rem;
+    margin-top: .5em;
+}
+.form-space{
+    display: grid;
+    grid-template-columns: repeat(2, 50%);
+    column-gap: 1em;
+    font-weight: 400;
+    font-size: 1.125rem;
+}
+input{
+    /* display: block; */
+    width: 100%;
+    padding: .5em;
+    font-family: inherit;
+    font-size: inherit;
+}
+label{
+    grid-column: 1/-1;
+    margin-bottom: 1em;
+}
+.text-type{
+    grid-column: span 1;
+}
+.btn-primary{
+    padding: .5em .5em;
+    margin-top: auto;
+    background-color: #533B4D;
+    color: #fff;
+    font-size: 1.75em;
+}
+.cart-link{
+    color: #9B4037;
+    text-decoration: underline;
+}
+.bottom-text{
+    text-align: center;
+    margin-bottom: 3em;
+}
+.checkbox{
+    padding: none;
+    width: 1em;
+}
